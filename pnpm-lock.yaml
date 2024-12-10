@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@google/generative-ai':
-        specifier: ^0.2.1
-        version: 0.2.1
+        specifier: ^0.21.0
+        version: 0.21.0
       '@radix-ui/react-avatar':
         specifier: ^1.1.1
         version: 1.1.1(@types/react-dom@18.3.3(@types/react@18.3.14))(@types/react@18.3.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -227,8 +227,8 @@ packages:
   '@floating-ui/utils@0.2.8':
     resolution: {integrity: sha512-kym7SodPp8/wloecOpcmSnWJsK7M0E5Wg8UcFA+uO4B9s5d0ywXOEro/8HM9x0rW+TljRzul/14UYz3TleT3ig==}
 
-  '@google/generative-ai@0.2.1':
-    resolution: {integrity: sha512-gNmMFadfwi7qf/6M9gImgyGJXY1jKQ/de8vGOqgJ0PPYgQ7WwzZDavbKrIuXS2zdqZZaYtxW3EFN6aG9x5wtFw==}
+  '@google/generative-ai@0.21.0':
+    resolution: {integrity: sha512-7XhUbtnlkSEZK15kN3t+tzIMxsbKm/dSkKBFalj+20NvPKe1kBY7mR2P7vuijEn+f06z5+A8bVGKO0v39cr6Wg==}
     engines: {node: '>=18.0.0'}
 
   '@humanwhocodes/config-array@0.13.0':
@@ -2580,7 +2580,7 @@ snapshots:
 
   '@floating-ui/utils@0.2.8': {}
 
-  '@google/generative-ai@0.2.1': {}
+  '@google/generative-ai@0.21.0': {}
 
   '@humanwhocodes/config-array@0.13.0':
     dependencies:
