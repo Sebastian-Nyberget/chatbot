@@ -14,10 +14,7 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Chatbot Section */}
-      <div className="w-full flex justify-center mb-16">
         <Chatbot />
-      </div>
 
       {/* Footer or Additional Section */}
       <div className="text-center mt-12 text-gray-200">
