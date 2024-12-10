@@ -1,5 +1,5 @@
 import React from "react";
-import { BiSupport } from "react-icons/bi";
+import { GiWeightLiftingUp } from "react-icons/gi";
 import { IoMdSend } from "react-icons/io";
 import {
   DropdownMenu,
@@ -9,11 +9,11 @@ import {
 
 export default function Chatbot() {
   return (
-    <div className="fixed bottom-4 z-50">
+    <div className="fixed bottom-4 right-4 z-50">
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <button className="p-3 bg-blue-500 rounded-full shadow-lg text-white hover:bg-blue-600 focus:outline-none">
-            <BiSupport size={24} />
+          <button className="p-4 bg-white rounded-full shadow-lg text-blue-500 hover:bg-blue-100 focus:outline-none transition-all transform hover:scale-110 active:scale-95">
+            <GiWeightLiftingUp size={24} />
           </button>
         </DropdownMenuTrigger>
         <DropdownMenuContent
@@ -34,7 +34,7 @@ export default function Chatbot() {
             <input
               type="text"
               placeholder="Skriv en melding..."
-              className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 h-12 pr-12" 
+              className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 h-12 pr-12"
             />
             <button className="text-blue-500 hover:text-blue-600 absolute right-6 top-1/2 transform -translate-y-1/2">
               <IoMdSend size={20} />
