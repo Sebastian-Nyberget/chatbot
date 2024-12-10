@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fitness Chatbot
 
-## Getting Started
+Welcome to the **Fitness Chatbot** project! This chatbot is designed to help users achieve their fitness goals by providing personalized recommendations, and answering questions. Powered by **Gemini's API**, the chatbot delivers intelligent and context-aware responses. The project leverages **Next.js** for the frontend and **ShadCN** for elegant and customizable UI components.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Personalized Fitness Plans**: Generate tailored fitness plans based on user preferences and goals.
+- **AI-Powered Assistance**: Ask the chatbot fitness-related questions for instant, accurate advice.
+- **User-Friendly Interface**: Clean and intuitive design using ShadCN components.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Frameworks and Libraries
+- **Next.js**: Provides a robust framework for server-rendered React applications.
+- **ShadCN**: Delivers reusable and highly customizable UI components.
+- **TypeScript**: Ensures type safety and improves code maintainability.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### API Integration
+- **Gemini's API**: Powers the chatbot with AI capabilities for dynamic and intelligent interactions.
 
-## Learn More
+### Styling
+- **Tailwind CSS**: Enables rapid styling with utility-first CSS classes.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation and Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
+Ensure you have the following installed:
+- **Node.js** (version 18 or above)
+- **npm** or **pnpm**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Steps to Run Locally
 
-## Deploy on Vercel
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sebastian-nyberget/chatbot.git
+   cd chatbot
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Create an `.env` file in the root directory and add your API keys and configuration:
+   ```env
+   GEMINI_API_KEY=your-gemini-api-key
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+## Usage
+
+1. **Interact with the chatbot**:
+   - Ask questions like, *"What are the best exercises for abs?"*
+   - Request fitness plans tailored to your goals.
+
+2. **Track your progress**:
+   - Log workouts.
+   - Monitor fitness statistics through dynamic visualizations.
+
+## Acknowledgments
+
+- [Gemini](https://gemini.com) for their powerful API.
+- [Next.js](https://nextjs.org) for their excellent framework.
+- [ShadCN](https://shadcn.dev) for beautiful and customizable UI components.
