@@ -1,5 +1,6 @@
 import Chatbot from "@/components/chatbot";
 
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white">
@@ -13,10 +14,7 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Chatbot Section */}
-      <div className="w-full flex justify-center mb-16">
         <Chatbot />
-      </div>
 
       {/* Footer or Additional Section */}
       <div className="text-center mt-12 text-gray-200">
